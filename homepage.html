@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Shoo The Boredom Away!</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="homepage.css">
+    </head>
+    <body>
+        <ul class="menu">
+            <li class="links"><a href= #intro>HOME</a></li>
+            <li class="links"><a href= #re>GAMES</a></li>
+            <li class="links"><a href= "movies.html">MOVIES</a></li>
+          
+        </ul> 
+        <br>
+        <button class="btn btn-danger" onclick="logout()">Logout</button>
+        <center>
+
+       
+       
+        <section id="intro">
+        <img class="sgo" src="https://img.freepik.com/premium-photo/cartoon-cat-sitting-ground-with-yellow-background-generative-ai_958108-15068.jpg">
+        <br>
+        <h1> Shoo The Boredom Away!</h1>
+        <div id="user_name"></div>
+    
+      
+            </section>
+             <section id="re">
+<h3>Let the fun begin!</h3>
+<p id="is">Explore a number of movies and games.<br> Have a blast and keep yourself entertained, happy and preoccupied</p>
+            
+
+
+             </section>
+             
+             
+   
+            
+            <h2 class="page-header">Games</h2>
+            <hr>
+           <section id="g">
+                
+
+            <div class="image-section">
+                <div class="section-style" onclick="golf()">
+                    <img src="golf.png" height="280" width="350" alt="" />
+                    <p><b>Hit the Golf</b>
+                        <br>Hit the ball into hole with the fewest number of strikes</p>
+                </div>
+        
+                <div class="section-style" onclick="paint()">
+                    <img src="paint.png" height="280" width="350" alt="" />
+                    <p><b>Creative Canvas</b><br>
+                    Get creative and start painting.</p>
+                </div>
+            </div>
+        
+            
+            <div class="image-section">
+                <div class="section-style" onclick="mine()" >
+                    <img src="minecraft.png"
+                         height="280" width="350"  alt="" />
+                    <p><b>Minecraft
+                    </b><br>Start Creating</p>
+                </div>
+        
+                <div class="section-style" onclick="mathq()">
+                    <img src="mQ.png" height="280" width="350" alt="" />
+                    <p><b>Math Quiz</b><br>
+                    Test your math skills</p>
+                </div>
+            </div>
+             </section>
+             <label onclick="seemore()" class="hover">See More</label>
+            </center>
+           
+
+        
+            
+       
+        <script src="homepage.js"></script>
+    </body>
+</html>

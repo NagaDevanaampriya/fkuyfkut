@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding-top:20px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+body{
+    background: url("hjj.jpg") no-repeat;
+    background-size: cover;
+    background-position:center;
+    text-align: right;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius:80px;
+    
+}
+
+.menu{
+        
+    position:fixed;
+    background-color: white;
+    margin-top:0px;
+    z-index:10;
+    width:100%;
+    top:0px;
+    text-align: right;
+   height: 50px;
+
+}
+
+.links{
+    
+    
+    padding-right:25px;
+    padding-left:33px;
+   
+    font-family:fantasy;
+    font-size:20px;
+    display:inline;
+    color: aliceblue;
+}
+.links:hover{
+    font-size:25px;
+    text-decoration: underline;
+}
+p{ 
+    font-family: cursive; 
+    font-size: 25px;
+    color: rgb(93, 20, 69);
+}
+h1{
+    
+    color: rgb(93, 20, 69);
+    font-family: fantasy;
+    font-size:50px;
+}
+h3{
+    color: rgb(93, 20, 69);
+    font-family: fantasy;
+    
+}
+button{
+    width:80px;
+    height:40px;
+   text-align: center;
+   margin-right: 10px;
+   border: radius 40px;
+}
+.page-header{
+    text-align: left;
+    color: rgb(93, 20, 69);
+    padding-left: 60px; 
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+hr{
+    color: rgb(93, 20, 69); 
+    background-color: rgb(93, 20, 69); ;
+}
+.picture{
+    height:200px;
+    width: 200px;
+    border-radius: 100px;
+   
+   
+}
+#sec{
+    background: rgb(255, 228, 237);
+    height: 150px;
+}
+
+
+
+
+h5{
+    font-size: 25px;
+    
+}
